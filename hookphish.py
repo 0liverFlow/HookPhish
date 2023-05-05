@@ -311,9 +311,7 @@ class HookPhish:
 if __name__ == "__main__":
     # Arguments
     parser = argparse.ArgumentParser(prog='HookPhish.py', description='', epilog='Ping me: 0liverFlow@proton.me')
-    group = parser.add_mutually_exclusive_group()
-    group.add_argument('-v', '--verbose', action='store_true', default=0, help='Increase verbosity')
-    group.add_argument('-q', '--quiet',  action='store_true', default=0, help='No verbosity')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Increase verbosity')
     parser.add_argument('-f','--file', metavar="URL", help='JSON file containing the API keys', nargs=1)
     parser.add_argument('-u','--url', metavar="URL", help='URL to check', required=True)
     args = parser.parse_args()
