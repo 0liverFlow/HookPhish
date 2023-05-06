@@ -200,7 +200,7 @@ class HookPhish:
             params = {"size": "x", "url": self.expanded_url}
             webpage_screenshot = requests.get(pagekeeper_url, headers = {"User-Agent": self.get_user_agent(), "Referer": "https://pagepeeker.com/"}, params=params, stream=True)
         if webpage_screenshot.status_code == 200:
-            user_choice = input(f"Would you like to see a real-time screenshot of [red3]{self.defanged_url}[/red3] [Yes/no]: ")
+            user_choice = input(f"Would you like to see a real-time screenshot of {self.defanged_url} [Yes/no]: ")
             if user_choice.lower() in ['','y', 'yes', 'yep', 'yeah', 'yay']:
                 with Image.open(webpage_screenshot.raw) as img:
                             img.show()
@@ -368,4 +368,4 @@ if __name__ == "__main__":
     hookphish.webpage_illustration()
     
     date, time = datetime.now().date(), datetime.now().strftime("%H:%M:%S")
-    printc(f"\nHookPhish >-)))->: [red3]{hookphish.defanged_url}[/red3]'s scan finished at {date} {time}")
+    printc(f"\nHookPhish >->->: [red3]{hookphish.defanged_url}[/red3]'s scan finished at {date} {time}")
