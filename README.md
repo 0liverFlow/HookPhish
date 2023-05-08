@@ -12,6 +12,7 @@ HookPhish is a Python script designed to aid in the detection of phishing websit
 - Tracking IP Domain Check
 - Redirection Check
 - Google Safe Browsing Database Check
+- Whois Lookup
 - Real-Time Screenshot
 
 Moreover, it utilizes the APIs of <a href="https://urlscan.io/docs/api/">urlscan.io</a> and <a href="https://www.abuseipdb.com/api">abuseipdb</a> to enhance its functionality.
