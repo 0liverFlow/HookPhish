@@ -56,5 +56,5 @@ After properly configuring the API keys, you should be able to get more informat
 python3.x HookPhish.py -u url -f config.ini -v
 ```
 ## Contribution
-1. If you noticed any bugs, report me  <a href="https://github.com/0liverFlow/HookPhish/issues">here</a> 
+1. If you noticed any bugs, thanks to report <a href="https://github.com/0liverFlow/HookPhish/issues">here</a> 
 2. For any interesting idea, thanks to ping me at <a href="mailto:0liverFlow@proton.me">0liverFlow</a>
