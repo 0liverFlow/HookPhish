@@ -32,7 +32,7 @@ Then you can run it
 python3.x HookPhish.py -u url [-f config.ini] [-v]
 ```
 
-## Important Note
+## Important Notes
 1. You don't need administrator privileges to run this script.
 2. Though you can run this script without specifying <a href="https://urlscan.io/docs/api/">urlscan.io</a> and <a href="https://www.abuseipdb.com/api">abuseipdb</a>'s api keys, it is recommended to use them in order to obtain more specific information concerning the suspected URL. To get the API keys, you need to create an account. For that, you can simply generate a temporary email using <a href="https://temp-mail.org/">tempmail.org</a> and that's it.
 
@@ -54,3 +54,6 @@ After properly configuring the API keys, you should be able to get more informat
 ```
 python3.x HookPhish.py -u url -f config.ini -v
 ```
+## Contribution
+1. If you noticed any bugs, report me  <a href="https://github.com/0liverFlow/HookPhish/issues">here</a> 
+2. For any interesting idea, thanks to ping me at <a href="mailto:0liverFlow@proton.me">0liverFlow</a>
