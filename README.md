@@ -33,7 +33,8 @@ python3.x HookPhish.py -u url [-f config.ini] [-v]
 ```
 
 ## Important Note
-Though you can run this script without specifying urlscan.io and abuseipdb's api keys, it is recommended to use them in order to obtain more specific information concerning the suspected URL. To get the API keys, you need to create an account. For that, you can simply generate a temporary email using <a href="https://temp-mail.org/">tempmail.org</a> and that's it.
+1. You don't need administrator privileges to run this script.
+2. Though you can run this script without specifying urlscan.io and abuseipdb's api keys, it is recommended to use them in order to obtain more specific information concerning the suspected URL. To get the API keys, you need to create an account. For that, you can simply generate a temporary email using <a href="https://temp-mail.org/">tempmail.org</a> and that's it.
 
 ## API Key Configuration
 After downloading the repository and getting your API Keys, you need to configure the config.ini file before executing the script. Here is how to do that:
