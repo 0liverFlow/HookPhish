@@ -17,7 +17,7 @@ Moreover, it utilizes the APIs of <a href="https://www.virustotal.com/gui/join-u
 Nevertheless, it's worth noting that you need to specify the corresponding api keys to use the API Key Integration feature.
 
 ## Demonstration
-[![asciicast](https://asciinema.org/a/8QxzrtLODWlvVmmlJfOYVPMCB.svg)](https://asciinema.org/a/8QxzrtLODWlvVmmlJfOYVPMCB)
+[![asciicast](https://asciinema.org/a/EkVgsFlj0vg8Wk4Z2c95hrO6u)
 
 ## Installation & Usage
 HookPhish is a cross platform script that works with python **3.x**.
