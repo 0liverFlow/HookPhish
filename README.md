@@ -13,7 +13,7 @@ HookPhish is a Python script designed to aid in the detection of phishing websit
 - Whois Lookup
 - Real-Time Screenshot
 
-Moreover, it utilizes the APIs of <a href="https://support.virustotal.com/hc/en-us/articles/115002088769-Please-give-me-an-API-key">virustotal.como</a>, <a href="https://urlscan.io/docs/api/">urlscan.io</a> and <a href="https://www.abuseipdb.com/api">abuseipdb</a> to enhance its functionality.
+Moreover, it utilizes the APIs of <a href="https://www.virustotal.com/gui/join-us">virustotal.como</a>, <a href="https://urlscan.io/docs/api/">urlscan.io</a> and <a href="https://www.abuseipdb.com/api">abuseipdb</a> to enhance its functionality.
 Nevertheless, it's worth noting that you need to specify the corresponding api keys to use the API Key Integration feature.
 
 ## Demonstration
@@ -33,7 +33,7 @@ python3.x HookPhish.py -u url [-f config.ini] [-v]
 
 ## Important Notes
 1. You don't need administrator privileges to run this script.
-2. Though you can run this script without specifying <a href="https://urlscan.io/docs/api/">urlscan.io</a> and <a href="https://www.abuseipdb.com/api">abuseipdb</a>'s api keys, it is recommended to use them in order to obtain more specific information concerning the suspected URL. To get the API keys, you need to create an account. For that, you can simply generate a temporary email using <a href="https://temp-mail.org/">tempmail.org</a> and that's it.
+2. Though you can run this script without specifying <a href="https://www.virustotal.com/gui/join-us">virustotal.como</a>, <a href="https://urlscan.io/docs/api/">urlscan.io</a> and <a href="https://www.abuseipdb.com/api">abuseipdb</a>'s api keys, it is recommended to use them in order to obtain more specific information concerning the suspected URL. To get the API keys, you need to create an account. For that, you can simply generate a temporary email using <a href="https://temp-mail.org/">tempmail.org</a> and that's it.
 3. The APIs used by the script have a limited rate.
 <table>
   <tr>
@@ -64,7 +64,7 @@ Then, you need to edit the config.ini file. Feel free to use your favorite text 
 ```
 vim config.ini
 ```
-<img width="756" alt="image" src="https://user-images.githubusercontent.com/64969369/236697555-f853d312-3bce-487e-ad42-84b6b66516b3.png"><br>
+<img width="1512" alt="image" src="https://github.com/0liverFlow/HookPhish/assets/64969369/4988edd2-a07e-47d3-9304-180a3dd25d64">
 
 #### Warning⚠️: Do not put the API key between double quotes, only copy and paste it!
 
