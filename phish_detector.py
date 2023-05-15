@@ -197,7 +197,7 @@ class PhishDetector:
                 with Image.open(webpage_screenshot.raw) as img:
                     try:
                         img.show()
-                     except BaseException as e:
+                    except BaseException as e:
                         printc("[red3][-][/red3] An error occured: screenshot unavailable")
         else:
             printc("[red3][-][/red3] Screenshot unavailable!!")
