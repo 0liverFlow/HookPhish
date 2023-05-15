@@ -195,7 +195,10 @@ class PhishDetector:
             user_choice = input(f"Would you like to see a real-time screenshot of {self.defanged_url} [Yes/no]: ")
             if user_choice.lower() in ['','y', 'yes', 'yep', 'yeah', 'yay']:
                 with Image.open(webpage_screenshot.raw) as img:
-                    img.show()
+                    try:
+                        img.show()
+                     except BaseException as e:
+                        printc("[red3][-][/red3] An error occured: screenshot unavailable")
         else:
             printc("[red3][-][/red3] Screenshot unavailable!!")
 
