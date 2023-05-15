@@ -298,10 +298,10 @@ class PhishDetector:
                         printc(f"[spring_green2][+][/spring_green2] {response_api_url.json()['task']['reportURL']}")
                     else:
                         printc(f"\n[gold1][!][/gold1] Verdict urlscan\n{'-'*20}")
-                        printc(f"\n[gold1][!][/gold1]  Score: {verdict_urlscan['score']}")
+                        printc(f"[gold1][!][/gold1] Score: {verdict_urlscan['score']}")
                         printc(f"[gold1][!][/gold1] Malicious: {verdict_urlscan['malicious']}")
                         printc(f"\n[gold1][!][/gold1] Verdict Overall\n{'-'*20}")
-                        printc(f"\n[gold1][!][/gold1] Score: {verdict_overall['score']}")
+                        printc(f"[gold1][!][/gold1] Score: {verdict_overall['score']}")
                         printc(f"[gold1][!][/gold1] Malicious: {verdict_overall['malicious']}")
                         printc(f"[spring_green2][+][/spring_green2] For more information about the report you can check the link below ↓")
                         printc(f"[spring_green2][+][/spring_green2] {response_api_url.json()['task']['reportURL']}")
