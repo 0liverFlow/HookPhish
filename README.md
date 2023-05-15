@@ -2,7 +2,7 @@
 
 # HookPhish
 [![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)](https://www.python.org/) 
-![Version 1.1](http://img.shields.io/badge/version-v1.0-orange.svg) ![License](https://img.shields.io/badge/license-MIT-red.svg) <img src="https://img.shields.io/badge/Maintained%3F-Yes-96c40f"> 
+![Version 1.1](http://img.shields.io/badge/version-v1.1-orange.svg) ![License](https://img.shields.io/badge/license-MIT-red.svg) <img src="https://img.shields.io/badge/Maintained%3F-Yes-96c40f"> 
 
 ## Purpose
 HookPhish is a Python script designed to aid in the detection of phishing websites. It performs various checks on suspected URLs to identify potential threats. The script incorporates multiple checks, namely:
