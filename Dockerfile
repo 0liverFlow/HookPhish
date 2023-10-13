@@ -10,4 +10,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["python3.11", "./HookPhish.py"]
+ENTRYPOINT ["python3.11", "./HookPhish.py", "-f", "./app/config/config.ini"]
