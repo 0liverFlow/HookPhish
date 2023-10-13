@@ -10,4 +10,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["python 3.12", "./HookPhish.py"]
+ENTRYPOINT ["python3.12", "./HookPhish.py"]
