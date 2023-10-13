@@ -1,4 +1,4 @@
-FROM python:3.12
+FROM python:3.11
 
 LABEL version="1.1"
 LABEL author="0liverFlow"
@@ -10,4 +10,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["python3.12", "./HookPhish.py"]
+ENTRYPOINT ["python3.11", "./HookPhish.py"]
