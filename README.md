@@ -66,7 +66,7 @@ vim config.ini
 ```
 <img width="1512" alt="image" src="https://github.com/0liverFlow/HookPhish/assets/64969369/4988edd2-a07e-47d3-9304-180a3dd25d64">
 
-#### Warning⚠️: Do not put the API key between double quotes, only copy and paste it!
+#### ⚠️ Warning: Do not put the API key between double quotes, only copy and paste it!
 
 After properly configuring the API keys, you should be able to get more information using the -f/--file option followed by the config.ini file.
 ```
@@ -75,6 +75,7 @@ python3.x HookPhish.py -u url -f config.ini -v
 
 ## Latest Release Notes
 - Virustotal check was added. You only need to specify the API key to use it.
+- A Dockerfile was added in other to ease the deployment process of the tool.
 
 ## Contribution
 1. If you noticed any bugs, thanks to report <a href="https://github.com/0liverFlow/HookPhish/issues">here</a> 
