@@ -13,7 +13,7 @@ HookPhish is a Python script designed to aid in the detection of phishing websit
 - Whois Lookup
 - Real-Time Screenshot
 
-Moreover, it utilizes the APIs of <a href="https://www.virustotal.com/gui/join-us">virustotal.com</a>, <a href="https://urlscan.io/docs/api/">urlscan.io</a> and <a href="https://www.abuseipdb.com/api">abuseipdb</a> to enhance its functionality.
+Moreover, it utilizes the APIs of <a href="https://www.virustotal.com/gui/join-us">virustotal.com</a>, <a href="https://urlscan.io/docs/api/">urlscan.io</a> and <a href="https://www.abuseipdb.com/api">abuseipdb</a> to enhance its functionalities.
 Nevertheless, it's worth noting that you need to specify the corresponding api keys to use the API Key Integration feature.
 
 ## Demonstration
