@@ -34,7 +34,7 @@ python3.x HookPhish.py -u url [-f config.ini] [-v]
 ## Important Notes
 1. You don't need administrator privileges to run this script.
 2. Though you can run this script without specifying <a href="https://www.virustotal.com/gui/join-us">virustotal.com</a>, <a href="https://urlscan.io/docs/api/">urlscan.io</a> and <a href="https://www.abuseipdb.com/api">abuseipdb</a>'s api keys, it is recommended to use them in order to obtain more specific information concerning the suspected URL. To get the API keys, you need to create an account. For that, you can simply generate a temporary email using <a href="https://temp-mail.org/">tempmail.org</a> and that's it.
-3. The APIs used by the script have a limited rate.
+3. The APIs used by the script have a rate limiting.
 <table>
   <tr>
     <td> API </td>
@@ -60,7 +60,7 @@ After downloading the repository and getting your API Keys, you need to configur
 cd ./HookPhish
 cd config
 ```
-Then, you need to edit the config.ini file. Feel free to use your favorite text editor. In my case, i will use vim
+Then, you need to edit the config.ini file. Feel free to use your favorite text editor. As far as I'm concerned, I use Vim
 ```
 vim config.ini
 ```
