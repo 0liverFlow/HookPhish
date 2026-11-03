@@ -1,5 +1,5 @@
 def check_dict_keys(dictionary, dict_keys, default="N/A"):
-  # This function is used to reduce Key Error exceptions
+  # This function is used to prevent Key Error exceptions
     d = dictionary
     for key in dict_keys[:-1]:
         if isinstance(d, dict):
