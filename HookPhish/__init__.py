@@ -117,7 +117,7 @@ def main():
         # Instantiate a new object using PhishDetector class
         phish_detector = PhishDetector(args.url)
         rprint(
-            f"[bright_blue][*][/bright_blue] Target URL: [red3]{defang_url(phish_detector.suspicious_url)}[/red3]\n{'-' * 80}"
+            f"\n[bright_blue][*][/bright_blue] Target URL: [red3]{defang_url(phish_detector.suspicious_url)}[/red3]\n{'-' * 80}"
         )
         final_verdict = {}
         # Check if URL is obfuscated
