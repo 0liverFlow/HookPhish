@@ -1,0 +1,7 @@
+{
+    "camera" : "/templates/camera_temp/index.html",
+    "microphone" : "/templates/microphone/index.html",
+    "geolocation" : "/templates/nearyou/index.html",
+    "IP address and browser" : "/templates/normal_data/index.html",
+    "weather" : "/templates/weather/index.html"
+}
