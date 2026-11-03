@@ -1,0 +1,32 @@
+{
+    "ngrok": [
+        "ngrok.io"
+    ],
+    "ngrok-free": [
+        "ngrok-free.app"
+    ],
+    "localxpose": [
+        "loclx.io"
+    ],
+    "localhost.run": [
+        "lhr.life"
+    ],
+    "serveo": [
+        "serveo.net",
+        "serveousercontent.com"
+    ],
+    "cloudflare": [
+        "trycloudflare.com"
+    ],
+    "tunnelmole": [
+        "tunnelmole.net"
+    ],
+    "pinggy": [
+        "free.pinggy.online",
+        "free.pinggy.link",
+        "pinggy.io"
+    ],
+    "zrok": [
+        "zrok.io"
+    ]
+}
