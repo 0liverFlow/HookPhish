@@ -1,0 +1,39 @@
+[project]
+name = "HookPhish"
+version = "1.2"
+description = "A Python script that helps detecting phishing websites using passive detection techniques."
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "beautifulsoup4",
+    "pillow",
+    "pytest-playwright",
+    "python-dotenv",
+    "requests",
+    "rich",
+]
+
+classifiers=[
+    "Environment :: Console",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security"
+]
+
+[project.scripts]
+hookphish = "HookPhish:main"
+
+[project.urls]
+homepage = "https://github.com/0liverFlow/HookPhish"
+issues = "https://github.com/0liverFlow/HookPhish/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = [
+    "HookPhish/*",
+]
